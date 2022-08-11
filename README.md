@@ -1,3 +1,5 @@
+# Radial Dual Contouring
+
 Abstract
 
 RadialDC (Radial Dual Contouring) is a method of large scale world mesh generation.
