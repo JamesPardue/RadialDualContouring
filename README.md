@@ -1,5 +1,3 @@
-# DynamicDetailDualContouring
-
 Abstract
 RadialDC (Radial Dual Contouring) is a method of large scale world mesh generation.
 Like Dual Contouring it divides space up into voxels and uses density functions to determine, place, and connect vertexes of the world mesh.
@@ -41,12 +39,5 @@ For now, only simple Reciple Blocks are generated, but the system could be exten
 Results
 Currently this system allows for generating a roughly 4 mile cube in 1-2 seconds.
 This should be sufficient for many types of play experiences.
-
-
-
-
-
-
-
 
 
