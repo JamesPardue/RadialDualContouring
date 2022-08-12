@@ -18,8 +18,6 @@ Dynamic Voxel Density Evaluation
 Dynamic Voxel Density Evaluation exitends this further by changing the density evaluation equations used depending on the detail level assigned to the voxel.
 For example a high detail assigned voxel, closer to the player, may have several levels of evaluations such a multiple octaves of simplex noise, while voxel farther away may be assigned a lower lelve of detail and simpler evaluation function.
 
-Code Structure
-
 Core and Outer Voxels
 
 In order to best faciliate large detailed worlds the code is divided into the generation of Core Voxels, which make up several tiers of the highest detial, and Outer Voxels, which more expand the size of the voxel in each layers as they move away to the player until theh hit a preset limit.
